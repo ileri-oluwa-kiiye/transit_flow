@@ -210,7 +210,7 @@
 }
 
 .contact form input{
-    width: 340px;
+    width: 310px;
     font-family: "Rubik";
     max-width: 30vw;
     background-color: inherit;
@@ -225,7 +225,7 @@
 }
 
 .contact textarea{
-    width: 740px;
+    width: 680px;
     height: 150px;
     font-family: "Rubik";
     max-width: 60vw;
@@ -273,4 +273,71 @@
 
 .contact button:hover{
     background: url("../img/hoverbg.png");
+}
+
+
+
+
+
+/* The styling for the choose page */
+
+.choose {
+    margin: 40px 0px;
+    color: #1C1F35;
+    background: url("../img/choosepattern.png") right top no-repeat;
+    background-size: 40vw;
+    background-color: #F4F4F4;
+    margin-bottom: 150px;
+}
+
+.choose .mainimg{
+    width: 45vw;
+    height: auto;
+}
+
+.choose main{
+    display: flex;
+    align-items: center;
+}
+
+.choose section img{
+    width: 55px;
+    margin-right: 1vw;
+}
+
+.choose h2{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    padding: 10px 0px
+}
+
+.choose h3{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 151.52%;
+    color: #666C89;
+}
+
+.choose section{
+    width: 500px;
+    padding: 5% 10% ;
+    max-width: 40vw;
+}
+
+.choose section div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose section ul li{
+    display: flex;
+    min-width: max-content;
+    align-items: center;
+    margin: 10px 0px;
+    margin-right: 5px;
 }
