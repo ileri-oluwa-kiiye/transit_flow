@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 
-li{
+ul{
     list-style: none;
 }
 
@@ -32,4 +32,5 @@ p.title{
     div.ctrlwidth{
         margin: 0px 50px;
     }
+    
 }

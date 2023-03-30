@@ -4,6 +4,8 @@ import Services from "./components/services"
 import Whyus from "./components/whyus"
 import Transport from "./components/transport"
 import Testimonials from "./components/testimonial"
+import Blog from "./components/blog"
+import Footer from "./components/footer"
 
 const Home = () => {
 
@@ -15,6 +17,8 @@ const Home = () => {
             <Whyus />
             <Transport />
             <Testimonials />
+            <Blog />
+            <Footer />
         </div>
     )
 }

@@ -212,3 +212,108 @@
     background: url("../img/transhoverbg.png");
 }
 
+
+
+/* For the testimonia part */
+
+.test{
+    color: #1C1F35;
+    padding: 10vw 0vw;
+}
+.test header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.test header h2{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    padding-top: 15px;
+    color: #1C1F35;
+}
+
+.test header img{
+    margin-left: 20px;
+}
+
+.test ul{
+    margin-top: 50px;
+    display: flex;
+}
+
+.test .first .testimonial{
+    padding: 40px 0px;
+    font-family: 'Krub';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #666C89;
+}
+
+.test .first {
+    background-color: #F4F4F4;
+}
+
+
+.test .second {
+    background-color:  #091242;
+    color: white;
+}
+
+.test .second .testimonial{
+    color: white;
+    padding: 40px 0px;
+    font-family: 'Krub';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+}
+
+.test ul li{
+    width: 500px;
+    max-width: 37vw;
+    padding: 60px;
+}
+
+.test li section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.test ul section  img{
+    width: 50px;
+}
+
+.test .profileimg{
+    width: 70px;
+}
+
+.test section div{
+    padding-right: 160px;
+    min-width: fit-content;
+}
+
+
+@media screen  and (max-width:1300px){
+    .test section div{
+        padding-right: 50px;
+        min-width: fit-content;
+    }
+
+    .whyus main .firstDiv{
+        background-color: white;
+        padding: 80px 50px;
+        padding-right: 0px;
+    }
+
+    .whyus main .image{
+        margin-left: -100px;
+        max-width: 45vw;
+    }
+}
