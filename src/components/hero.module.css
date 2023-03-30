@@ -1,0 +1,169 @@
+/* THese are the styles for the header in the header.module.css  */
+
+.header{
+    background: #091242;
+    color: white;
+    font-family: "Krub";
+    font-size: 13px;
+    line-height: 135.02%;
+}
+
+
+
+.header main{
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul{
+    display: flex;
+    width: 755px;
+    max-width: 70vw;
+    justify-content: space-evenly;
+}
+
+.header ul li{
+    display: flex;
+    align-items: center;
+}
+
+.header p{
+    margin: 0px 5px;
+}
+
+.header li img{
+    width: 55px;
+}
+
+
+
+/* These are the styles for the navbar on the hero page  */
+.nav{
+    background: rgba(9, 18, 66, 0.25);
+    color: white;
+    font-family: "Krub";
+    font-size: 15px;
+    position:sticky;
+    top: 0px;
+}
+
+.nav .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .pages{
+    margin-right: 250px;
+    min-width: 500px;
+}
+
+.nav .pages li:hover{
+    transition:  all 0.3s ease;
+}
+
+.nav .pages li:hover{
+    color: black;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li{
+    cursor: pointer;
+}
+
+.nav .socials{
+    width:  150px;
+}
+
+.nav ul.quote{
+    background: #FFFFFF;
+    padding: 25px 50px;
+    color: black;
+    transition:  all 0.3s ease;
+}
+
+.nav ul.quote:hover{
+    color: white;
+    background-color: grey;
+}
+
+
+
+
+
+/* THe styles for the hero page */
+.hero{
+    height: 90vh;
+    max-height: 1000px;
+    width: 100vw;
+    background-image: url(../img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero main{
+    padding-top: 10vh;
+    max-width: 550px;
+    color: white;
+}
+
+.hero h2{
+    background: rgba(4, 28, 55, 0.5);
+    padding: 3px 9px;
+    border-left: 3px solid #FFB629;
+    font-weight: 400;
+    font-size: 14px;
+    width: max-content;
+}
+
+.hero h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71px;
+}
+
+.hero p{
+    font-family: 'Krub';
+    font-size: 16px;
+    line-height: 151.52%;
+}
+
+.hero button{
+    margin-top: 20px;
+    padding: 15px 50px;
+    border: none;
+    margin: none;
+    background: url("../img/buttonbg.png");
+    transition: all 0.4s ease;
+}
+
+.hero button:hover{
+    background: url("../img/hoverbg.png");
+}
+
+
+
+
+
+/* ALl the media queries */
+@media screen and (max-width:1300px) {
+    .header, .nav{
+        padding: 0px 20px;
+    }
+    .nav .pages{
+        margin-right: 10vw;
+        min-width: 500px;
+    }
+    .nav ul.quote{
+        padding: 20px 40px;
+    }
+}
