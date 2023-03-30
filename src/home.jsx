@@ -1,6 +1,8 @@
 import Header from "./components/header"
 import Hero from "./components/hero"
 import Services from "./components/services"
+import Whyus from "./components/whyus"
+import Transport from "./components/transport"
 
 const Home = () => {
 
@@ -9,6 +11,8 @@ const Home = () => {
             <Header />
             <Hero />
             <Services />
+            <Whyus />
+            <Transport />
         </div>
     )
 }

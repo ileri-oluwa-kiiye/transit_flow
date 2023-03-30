@@ -21,10 +21,10 @@ li{
 p.title{
     background: rgba(232, 232, 232, 0.5);
     padding: 3px 9px;
-    color: #1C1F35;
+    color: #1C1F35 !important;
     border-left: 3px solid #FFB629;
     font-weight: 400;
-    font-size: 14px;
+    padding-bottom: 0px;
     width: max-content;
 }
 

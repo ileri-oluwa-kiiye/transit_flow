@@ -53,3 +53,162 @@
     border-right: 1px solid #D8D8D8;
     margin-right: 20px;
 }
+
+
+
+
+
+/* This is for the why us page */
+.whyus{
+    height: 130px;
+    width: 100vw;
+    background-image: url(../img/whyusbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 350px;
+    color: #1C1F35;
+}
+
+.whyus .firstDiv  p{
+    font-family: 'Krub';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    padding-bottom: 10px;
+    max-width: 450px;
+    color: #666C89;
+}
+
+.whyus main .firstDiv{
+    background-color: white;
+    padding: 80px 110px;
+    padding-right: 0px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.whyus main .image{
+    margin-left: -100px;
+    max-width: 45vw;
+    padding-right: 110px;
+}
+
+.whyus .firstDiv h2{
+    font-family: 'Rubik';
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.whyus .firstDiv li{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.firstDiv li img{
+    padding-right: 10px;
+}
+
+
+.whyus .secondDiv{
+
+    padding: 70px 110px;
+    background-color: white;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.whyus .secondDiv li{
+    display: flex;
+    padding: 30px 120px;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    border: 1px solid #D5D5D5;
+}
+
+.whyus li h3{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 59px;
+}
+
+.whyus .secondDiv p{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+
+}
+
+.secondDiv li.first{
+    border-left: none;
+}
+.secondDiv li.second{
+    border-right: none;
+}
+
+
+
+
+
+
+
+
+/* This is for the transport page */
+.transport{
+    /* width: 1100; */
+    margin: auto;
+    margin-top: 900px;
+}
+
+.transport h2{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+    color: #1C1F35;
+}
+
+.transport .images{
+    width: 1500px;
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.transport .images img{
+    max-width: 16vw;
+    height: auto;
+}
+
+.transport .button{
+    width: max-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.transport button{
+    margin-top: 20px;
+    padding: 15px 50px;
+    color: white;
+    border: none;
+    margin: none;
+    background: url("../img/transbuttonbg.png");
+    transition: all 0.4s ease;
+}
+
+.transport button:hover{
+    background: url("../img/transhoverbg.png");
+}
+
