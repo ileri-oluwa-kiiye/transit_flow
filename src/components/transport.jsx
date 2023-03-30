@@ -20,9 +20,6 @@ const Transport = () => {
             <div className={styles.button}>
                 <button>More Work</button>
             </div>
-            vrnbvortkg
-            regver
-            fverf4
         </div>
     )
 }
