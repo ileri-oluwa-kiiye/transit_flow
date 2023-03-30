@@ -16,3 +16,20 @@ a{
 li{
     list-style: none;
 }
+
+
+p.title{
+    background: rgba(232, 232, 232, 0.5);
+    padding: 3px 9px;
+    color: #1C1F35;
+    border-left: 3px solid #FFB629;
+    font-weight: 400;
+    font-size: 14px;
+    width: max-content;
+}
+
+@media screen and (max-width:1300px) {
+    div.ctrlwidth{
+        margin: 0px 50px;
+    }
+}

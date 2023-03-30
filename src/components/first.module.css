@@ -1,0 +1,55 @@
+/* This is to style all the pages before the contact page */
+
+/* The services part */
+.services main{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+    color: #1C1F35;
+}
+
+.services h2{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    margin-top: 15px;
+}
+
+.services img{
+    height: fit-content;
+    width: fit-content;
+}
+
+.services li{
+    display: flex;
+    align-items: flex-start;
+    max-width: 30vw;
+    margin: 0px 30px 30px 20px;
+}
+
+.services li h2{
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.services li p{
+    width: 250px;
+    color: #666C89;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 0px;
+    line-height: 151.52%;
+}
+
+.services li .img{
+    width: 100px;
+    padding: 5px;
+    height: 110px;
+    border-right: 1px solid #D8D8D8;
+    margin-right: 20px;
+}

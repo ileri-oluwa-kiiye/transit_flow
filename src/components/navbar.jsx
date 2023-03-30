@@ -3,6 +3,7 @@ import instagram from "../img/Instagram.svg"
 import facebook from "../img/Facebook.svg"
 import twitter from "../img/Twitter.svg"
 import linkedin from  "../img/Linkdin.svg"
+import vector from "../img/vector.png"
 
 
 const Navbar = () => {
@@ -11,9 +12,9 @@ const Navbar = () => {
             <div className="ctrlwidth">
                 <div className={styles.wrap}>
                     <ul className={styles.pages}>
-                        <li>Home</li>
+                        <li className={styles.active}>Home</li>
                         <li>About</li>
-                        <li>Pages</li>
+                        <li>Pages <img src={vector} alt="" /></li>
                         <li>Project</li>
                         <li>Contact</li>
                     </ul>

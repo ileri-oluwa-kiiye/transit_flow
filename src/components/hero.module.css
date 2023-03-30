@@ -45,8 +45,8 @@
     color: white;
     font-family: "Krub";
     font-size: 15px;
-    position:sticky;
-    top: 0px;
+    /* position:sticky;
+    top: -12px; */
 }
 
 .nav .wrap{
@@ -59,12 +59,25 @@
     min-width: 500px;
 }
 
-.nav .pages li:hover{
-    transition:  all 0.3s ease;
+.nav .pages li{
+    padding: 5px 33px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    transition:  all 0.3s ease-out;
 }
 
+.pages li.active{
+    padding: 25px 2px;
+    margin: 0px 31px;
+    border: none;
+    border-bottom: 2px solid  white;
+}
+
+
 .nav .pages li:hover{
-    color: black;
+    padding: 25px 2px;
+    margin: 0px 31px;
+    border: none;
+    border-bottom: 2px solid  white;
 }
 
 .nav ul{
@@ -79,9 +92,11 @@
 
 .nav .socials{
     width:  150px;
+    margin-right: 1vw;
 }
 
 .nav ul.quote{
+    min-width: fit-content;
     background: #FFFFFF;
     padding: 25px 50px;
     color: black;
@@ -109,7 +124,7 @@
 }
 
 .hero main{
-    padding-top: 10vh;
+    padding-top: 12vh;
     max-width: 550px;
     color: white;
 }
@@ -128,6 +143,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
+    padding: 5px 0px;
     line-height: 71px;
 }
 
@@ -165,5 +181,9 @@
     }
     .nav ul.quote{
         padding: 20px 40px;
+    }
+
+    .hero main{
+        padding-left: 5vw;
     }
 }
