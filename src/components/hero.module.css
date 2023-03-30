@@ -21,8 +21,8 @@
 
 .header ul{
     display: flex;
-    width: 755px;
-    max-width: 70vw;
+    width: 705px;
+    max-width: 60vw;
     justify-content: space-evenly;
 }
 
