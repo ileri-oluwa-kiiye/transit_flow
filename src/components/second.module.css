@@ -50,7 +50,7 @@
     justify-content: space-between;
     text-align: left;
     border-top: 1px solid #D6D6D6;
-    padding: 60px 0px;
+    padding: 60px 0px 30px 0px;
 
 }
 
@@ -125,4 +125,40 @@
     line-height: 166.52%;
     padding: 2px 0px;
     color: #1C1F35;
+}
+
+
+/* The styling for the expert section */
+.expert{
+    margin-bottom: 100px;
+}
+.expert p{
+    margin: auto;
+}
+
+.expert h2{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 41px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.expert ul{
+    display: flex;
+    width: max-content;
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 0px;
+
+}
+
+.expert li{
+    margin: 10px 20px;
+}
+
+.expert img{
+    width: 300px;
+    max-width: 25vw;
 }
