@@ -28,6 +28,12 @@ p.title{
     width: max-content;
 }
 
+
+.cover{
+    max-width: 100vw !important;
+    overflow: none !important;
+}
+
 @media screen and (max-width:1300px) {
     div.ctrlwidth{
         margin: 0px 50px;

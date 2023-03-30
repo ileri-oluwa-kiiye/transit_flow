@@ -62,7 +62,7 @@
 }
 
 .nav .pages li{
-    padding: 5px 33px;
+    padding: 5px 25px;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     transition:  all 0.3s ease-out;
 }
@@ -102,7 +102,7 @@
 .nav ul.quote{
     min-width: fit-content;
     background: #FFFFFF;
-    padding: 20px 50px;
+    padding: 20px 20px;
     color: black;
     transition:  all 0.3s ease;
 }
@@ -184,7 +184,7 @@
         min-width: 500px;
     }
     .nav ul.quote{
-        padding: 20px 40px;
+        padding: 20px 20px;
     }
 
     .hero main{
