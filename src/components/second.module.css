@@ -1,19 +1,7 @@
 
 
-/* This is for the footer  */
-.footer{
-    background-color: #091242;
-    color: white;
-}
 
-.footer section{
-    height: 400px;
-    width: 100vw;
-    background-image: url(../img/footerbg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 
 
@@ -128,6 +116,12 @@
 }
 
 
+
+
+
+
+
+
 /* The styling for the expert section */
 .expert{
     margin-bottom: 100px;
@@ -161,4 +155,122 @@
 .expert img{
     width: 300px;
     max-width: 25vw;
+}
+
+
+
+
+
+
+
+/* The styling for the contact page */
+.contact{
+    background-color: #091242;
+    color: white;
+    padding-top: 140px;
+}
+
+.contact h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: 8vw;
+    line-height: 41px;
+}
+
+.contact p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    max-width: 350px;
+    /* margin-bottom: 10px; */
+    font-size: 14px;
+    line-height: 151.52%;
+}
+
+.contact .links  li{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.contact .links p{
+    margin: 5px;
+}
+
+.contact .links li img{
+    width: 55px;
+    padding-right: 10px;
+}
+
+.contact section{
+    display: flex;
+}
+
+.contact form input{
+    width: 340px;
+    font-family: "Rubik";
+    max-width: 30vw;
+    background-color: inherit;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 20px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid #4E5683;
+}
+
+.contact textarea{
+    width: 740px;
+    height: 150px;
+    font-family: "Rubik";
+    max-width: 60vw;
+    background-color: inherit;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 20px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid #4E5683;
+}
+
+
+
+.contact form ::placeholder{
+    color: white;
+    font-family: "Rubik";
+}
+
+.contact form div{
+    display: flex;
+}
+
+.contact .clients img{
+    width: 300px;
+    max-width: 21vw;
+}
+.contact .clients {
+    width: max-content;
+    margin: 100px auto;
+    padding-bottom: 90px;
+}
+
+.contact button{
+    padding: 15px 40px;
+    border: none;
+    margin: none;
+    margin-top: 30px;
+    margin-left: 10px;
+    background: url("../img/buttonbg.png");
+    transition: all 0.4s ease;
+}
+
+.contact button:hover{
+    background: url("../img/hoverbg.png");
 }

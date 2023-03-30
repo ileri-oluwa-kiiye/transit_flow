@@ -21,7 +21,7 @@ ul{
 p.title{
     background: rgba(232, 232, 232, 0.5);
     padding: 3px 9px;
-    color: #1C1F35 !important;
+    color: #1C1F35;
     border-left: 3px solid #FFB629;
     font-weight: 400;
     padding-bottom: 0px;

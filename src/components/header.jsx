@@ -16,15 +16,15 @@ const Header = () => {
                         <ul>
                             <li>
                                 <img src={clock} alt="" />
-                                <p>Mon - Sat 9.00 - 18.00 <br></br>Sunday Closed</p>
+                                <p>Mon - Sat 9.00 - 18.00 <br />Sunday Closed</p>
                             </li>
                             <li>
                                 <img src={email} alt="" />
-                                <p>Email<br></br>contact@logistics.com</p>
+                                <p>Email<br />contact@logistics.com</p>
                             </li>
                             <li>
                                 <img src={call} alt="" />
-                                <p>Call Us (00) 112 365 489</p>
+                                <p>Call Us <br /> (00) 112 365 489</p>
                             </li>
                         </ul>
                     </main>

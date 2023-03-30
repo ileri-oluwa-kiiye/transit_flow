@@ -1,0 +1,28 @@
+
+/* This is for the footer  */
+.footer{
+    background-color: #091242;
+    color: white;
+}
+
+.footer section{
+    height: 400px;
+    width: 100vw;
+    background-image: url(../img/footerbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.footer footer{
+    font-size: 13px;
+    border-top:  1px solid #4E5683;
+    padding: 20px 0px;
+}
+
+.footer footer div{
+    width: 1200;
+    margin: auto;
+    display: flex;
+}

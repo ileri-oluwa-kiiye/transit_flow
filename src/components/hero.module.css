@@ -5,8 +5,8 @@
     color: white;
     font-family: "Krub";
     position: sticky;
-    top: -10px;
-    font-size: 13px;
+    top: -15px;
+    font-size: 12px;
     line-height: 135.02%;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .header li img{
-    width: 55px;
+    width: 50px;
 }
 
 
@@ -68,7 +68,7 @@
 }
 
 .pages li.active{
-    padding: 25px 2px;
+    padding: 20px 2px;
     margin: 0px 31px;
     border: none;
     border-bottom: 2px solid  white;
@@ -76,7 +76,7 @@
 
 
 .nav .pages li:hover{
-    padding: 25px 2px;
+    padding: 20px 2px;
     margin: 0px 31px;
     border: none;
     border-bottom: 2px solid  white;
@@ -84,12 +84,14 @@
 
 .nav ul{
     display: flex;
+    cursor: pointer;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav li{
     cursor: pointer;
+    min-width: fit-content;
 }
 
 .nav .socials{
@@ -100,7 +102,7 @@
 .nav ul.quote{
     min-width: fit-content;
     background: #FFFFFF;
-    padding: 25px 50px;
+    padding: 20px 50px;
     color: black;
     transition:  all 0.3s ease;
 }
@@ -116,7 +118,7 @@
 
 /* THe styles for the hero page */
 .hero{
-    height: 90vh;
+    height: calc( 100vh - 80px );
     max-height: 1000px;
     width: 100vw;
     background-image: url(../img/hero.png);
@@ -144,22 +146,22 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
-    padding: 5px 0px;
+    font-size: 57px;
+    padding: 10px 0px;
     line-height: 71px;
 }
 
 .hero p{
     font-family: 'Krub';
-    font-size: 16px;
+    font-size: 15px;
     line-height: 151.52%;
 }
 
 .hero button{
-    margin-top: 20px;
     padding: 15px 50px;
     border: none;
     margin: none;
+    margin-top: 30px;
     background: url("../img/buttonbg.png");
     transition: all 0.4s ease;
 }
