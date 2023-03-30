@@ -61,7 +61,7 @@ const Footer = () => {
                 </ul>
             </main>
             <footer>
-                <div>
+                <div className="ctrlwidth">
                     <p>Copyright &copy; TransitFlow | Designed by VictorFlow - Powered by Webflow.</p>
                     <ul>
                         <li>Style Guide</li>

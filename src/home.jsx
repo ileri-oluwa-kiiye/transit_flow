@@ -1,4 +1,4 @@
-import Header from "./components/header"
+// import Header from "./components/header"
 import Hero from "./components/hero"
 import Services from "./components/services"
 import Whyus from "./components/whyus"
@@ -13,7 +13,7 @@ const Home = () => {
 
     return(
         <div className="cover">
-            <Header />
+            {/* <Header /> */}
             <Hero />
             <Services />
             <Whyus />

@@ -3,7 +3,7 @@
 .footer{
     background-color: #091242;
     color: white;
-    margin-top: 5000px;
+    margin-top: 100px;
 }
 
 .footer section{
@@ -26,4 +26,34 @@
     width: 1200;
     margin: auto;
     display: flex;
+    justify-content: space-between;
+}
+
+.footer footer ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.footer main{
+    display: flex;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-bottom: 400px;
+    margin-top: -7px;
+    justify-content: space-evenly;
+}
+
+.footer main h2{
+    padding: 30px 0px;
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
 }
