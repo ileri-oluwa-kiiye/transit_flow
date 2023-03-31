@@ -5,6 +5,7 @@
     color: white;
     font-family: "Krub";
     position: sticky;
+    z-index: 100;
     top: -15px;
     font-size: 12px;
     line-height: 135.02%;

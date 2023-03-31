@@ -37,7 +37,7 @@
 
 .footer main{
     display: flex;
-    height: 80px;
+    height: 70px;
     background-color: rgba(255, 255, 255, 0.08);
     margin-bottom: 400px;
     margin-top: -7px;
@@ -45,15 +45,120 @@
 }
 
 .footer main h2{
-    padding: 30px 0px;
+    padding: 19.5px 0px;
     
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 30px;
     /* identical to box height */
     
-    
+    margin-bottom: 40px;
     color: #FFFFFF;
+}
+
+
+.footer .links  li{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.footer .links p{
+    margin: 5px;
+}
+
+.footer .links li img{
+    width: 55px;
+    padding-right: 10px;
+}
+
+.footer section{
+    display: flex;
+}
+
+
+
+
+.footer .first{
+    max-width: 350px;
+}
+
+.first{
+    margin-left: 5%;
+}
+
+.first p{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #E8E8E8;
+}
+
+
+.footer main .first h2{
+    background-color: #091242;
+    padding: 19.5px;
+    margin-top: 0px;
+    /* margin-bottom: 30px; */
+}
+
+
+
+
+.middle li{
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 250%;
+    padding: 2px 0px;
+}
+
+
+
+.subscribe{
+    margin-right: 5%;
+}
+
+.subscribe input{
+    width: 300px;
+    max-width: 20vw;
+    font-family: "Rubik";
+    background-color: inherit;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 15px 20px;
+    margin: 30px 0px;
+    outline: none;
+    border: 1px solid #4E5683;
+}
+.subscribe div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscribe button{
+    padding: 19px 55px;
+    border: none;
+    margin: none;
+    margin-top: 30px;
+    background: url("../img/buttonbg.png");
+    transition: all 0.4s ease;
+}
+
+
+
+.subscribe button:hover{
+    background: url("../img/hoverbg.png");
+}
+
+.subscribe img{
+    margin-top: 20px;
 }

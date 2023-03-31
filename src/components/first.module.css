@@ -164,9 +164,11 @@
 
 /* This is for the transport page */
 .transport{
+    position: relative;
     /* width: 1100; */
     margin: auto;
     margin-top: 900px;
+    margin-bottom: -250px;
 }
 
 .transport h2{
@@ -184,6 +186,7 @@
     max-width: 90vw;
     margin: auto;
     display: flex;
+    z-index: 1000;
     justify-content: space-around;
 }
 
@@ -210,6 +213,13 @@
 
 .transport button:hover{
     background: url("../img/transhoverbg.png");
+}
+
+.cover img{
+    max-width: 100vw;
+    min-width: 100vw;
+    height: 400px;
+    margin-bottom: 50px;
 }
 
 
